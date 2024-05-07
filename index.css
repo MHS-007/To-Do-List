@@ -1,0 +1,142 @@
+*{
+   font-family: "Poppins", sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.gradient{
+    background-image: linear-gradient(to right, #ff9a0391 46%,rgba(84, 187, 84, 0.836));
+    height: 640px;
+    padding: 5px;
+}
+
+.container{
+    text-align: left;
+    margin-top: 60px;
+    padding: 10px;
+}
+
+.daily-task-list{
+    background-color: #ffb74d;
+    width: 280px;
+    margin-top:65px;
+    margin-left: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.container h1{
+    color: rgb(29, 28, 28);
+}
+
+.daily-task-list h1{
+    text-align: center;
+    color: rgb(51, 46, 46);
+}
+
+.completed-task-list h1{
+    color: rgb(123, 235, 123);
+}
+
+ul li{
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+
+.completed-task-list{
+    background-color: rgb(63, 182, 63);
+    color: white;
+    max-width: fit-content;
+    position: absolute;
+    top: 245px;
+    left: 620px;
+    margin-right: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.task-list li{
+    background-color: #ffbd5a;
+    color: black;
+    padding: 10px;
+}
+
+.task-list li:hover{
+    background-color: #ffad32;
+    transition: background-color 0.2s linear;
+}
+
+.completed-tasks li{
+    background-color: rgb(107, 207, 107);
+    color: black;
+    padding: 10px;
+}
+
+.completed-tasks li:hover{
+    background-color: rgb(79, 216, 79);
+    transition: background-color 0.2s linear;
+}
+
+.fa-trash{
+    color: red;
+    float: right;
+    margin-top: 4px;
+}
+
+.fa-trash:hover{
+    color: rgb(214, 32, 32);
+}
+
+.fa-circle{
+    margin-right: 10px;
+}
+
+.fa-circle-check{
+    background-color: green;
+    color: white;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+input{
+    background-color: rgb(145, 145, 145);
+    color: rgb(41, 40, 40);
+    width: 35%;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 8px;
+    outline: none;
+    border: 1px solid rgb(71, 68, 68);
+    border-radius: 30px;
+}
+
+input::placeholder{
+    color: rgb(48, 46, 46);
+}
+
+button{
+    background-color: #ffb74d;
+    color: rgb(48, 45, 45);
+    width: 70px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: -60px;
+    padding: 8px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid rgb(71, 68, 68);
+    border-radius: 30px;
+}
+
+button:hover{
+    background-color: #eeab46;
+    transition: background-color 0.2s ease;
+}
